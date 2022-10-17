@@ -5,16 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Skitbet",
   "license": "ISC",
   "dependencies": {
     "ascii-table": "0.0.9",
-    "discord.js": "^12.5.1"
-  },
-  "devDependencies": {
-    "ascii-table": "0.0.9",
+    "discord.js": "^12.5.1",
+    "nodemon": "^2.0.20",
+	"ascii-table": "0.0.9",
     "colors": "^1.4.0"
   }
 }
